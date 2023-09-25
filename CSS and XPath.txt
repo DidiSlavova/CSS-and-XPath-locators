@@ -1,0 +1,57 @@
+- Sign in text
+
+$('p.h4.mb-4') 
+$x('//p[contains(text(), "Sign in")]')
+
+- Username input 
+
+$('input#defaultLoginFormUsername') 
+$x('//*[@id="defaultLoginFormUsername"]')
+
+- Password input
+
+$('input#defaultLoginFormPassword') 
+$x('//*[@id="defaultLoginFormPassword"]')
+
+- Remember me checkbox
+
+$('input.remember-me-button.ng-untouched.ng-pristine.ng-valid')
+$x('//input[@type="checkbox"]')
+ 
+- Sign in button
+
+$('button#sign-in-button') 
+$x('//*[@id="sign-in-button"]')
+
+- Sign in form
+
+$('form.text-center.border.border-light.form-container.ng-untouched.ng-pristine.ng-invalid') 
+$x('//form[@class="text-center border border-light form-container ng-pristine ng-invalid ng-touched"]')
+
+- Login
+
+$("a#nav-link-login") 
+$x('//*[@id="nav-link-login"]') 
+
+- Home
+
+$("a#nav-link-home") 
+$x('//*[@id="nav-link-home"]')
+
+- ISkillo icon
+
+$('img#homeIcon') 
+$x('//img[@id="homeIcon"]')
+
+- Version text BOX
+
+$('div.col-5.col-lg-3.footer-container') 
+
+- Version text
+
+$x('//div[contains(text(), "Version: 2020.3.2.4300")]') 
+
+- Register section 
+
+$('p.register-section') 
+$x('//p[@class="register-section"]')
